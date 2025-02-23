@@ -1,0 +1,6 @@
+model_path: "models/transformer.onnx"  # Path to the model
+batch_size: 8  # Batch size for inference
+use_fp16: True  # Use FP16 precision
+use_int8: False  # Use INT8 quantization
+dynamic_batching: True  # Enable dynamic batching
+attention_pattern: "custom"  # Attention pattern (vanilla, custom)
